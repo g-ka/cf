@@ -1,0 +1,94 @@
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.troop-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+.name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*background-color: rgb(74, 74, 74);*/
+  background-image: url(left.svg);
+  height: 514rem;
+  width: 50rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-right-radius: 50rem;
+  border-bottom-right-radius: 50rem;
+}
+.name p{
+  font-size: 50rem;
+  font-family: 'Overpass Mono', monospace;
+  color: white;
+}
+.troop-img{
+  width: 500rem;
+  height: 450rem;
+  object-fit: contain;
+}
+.vote{
+  display: flex;
+  flex-direction: column;
+  height: 250rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.vote i{
+  font-size: 35rem;
+  cursor: pointer;
+  transition: transform 0.15s;
+}
+.vote i:hover{
+  transform: translateY(-5rem);
+}
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info{
+  width: 400rem;
+  color: white;
+  font-size: 25rem;
+  font-family: 'Overpass Mono', monospace;
+  margin-left: 95rem;
+  text-align: center;
+}
+.rank{
+  color: black;
+  font-size: 80rem;
+}
+.next{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*background-color: rgb(74, 74, 74);*/
+  background-image: url(left.svg);
+  height: 514rem;
+  width: 50rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: 50rem;
+  border-bottom-left-radius: 50rem;
+}
+.next i{
+  font-size: 50rem;
+  color: white;
+  cursor: pointer;
+}
+.next i:active{
+  color: black;
+}
+#before-l{
+  margin-bottom: 100rem;
+}
+#after-l{
+  margin-top: 100rem;
+}

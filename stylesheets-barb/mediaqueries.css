@@ -1,0 +1,70 @@
+@media (max-width: 700px){
+  .menu-div{
+    display: none;
+  }
+  #menu-icon{
+    display: unset;
+  }
+}
+@media (max-width: 950px){
+  .menu-div{
+    width: 450rem;
+  }
+}
+@media (max-width: 850px){
+  .menu-div{
+    width: 400rem;
+  }
+}
+@media (max-width: 750px){
+  .menu-div{
+    width: 350rem;
+  }
+}
+
+
+
+
+@media (max-width: 1030px){
+  main{
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+  }
+  .troop-div{
+    padding-right: 30rem;
+  }
+  .info{
+    margin-left: 0;
+    flex: 1;
+    padding: 0 40rem;
+  }
+}
+@media (max-width: 630px){
+  html{
+    font-size: 0.9px;
+  }
+  .name{
+    width: 50rem;
+    height: 514rem;
+    border-top-right-radius: 50rem;
+    border-bottom-right-radius: 50rem;
+  }
+  .name p{
+    font-size: 50rem;
+  }
+  .troop-img{
+    width: 335rem;
+    height: 450rem;
+  }
+  .vote{
+    height: 250rem;
+  }
+  .vote i{
+    font-size: 35rem;
+  }
+}
+@media (max-width: 470px){
+  html{
+    font-size: 0.625px;
+  }
+}

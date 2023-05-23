@@ -1,0 +1,43 @@
+.top-bar{
+  display: flex;
+  color: white;
+  font-family: "Century Gothic";
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13rem 40rem;
+  background-color: black;
+  border-bottom-right-radius: 50rem;
+  border-bottom-left-radius: 50rem;
+}
+.logo-p{
+  font-size: 30rem;
+  cursor: pointer;
+}
+.menu-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 575rem;
+}
+.menu-div p{
+  font-size: 16rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  padding: 3rem 5rem;
+  border-radius: 3rem;
+}
+.menu-div .h{
+  margin: 0;
+}
+.menu-div p:hover{
+  color: black;
+  background-color: white;
+}
+#menu-icon{
+  color: white;
+  font-size: 30rem;
+  display: none;
+  text-align: center;
+  cursor: pointer;
+}

@@ -1,0 +1,220 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+html{
+  font-size: 1px;
+}
+
+
+
+
+body{
+  background-image: radial-gradient(#2d62f4,#270254);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+.top-bar{
+  display: flex;
+  color: white;
+  font-family: "Century Gothic";
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13rem 40rem;
+  background-color: black;
+  border-bottom-right-radius: 50rem;
+  border-bottom-left-radius: 50rem;
+}
+.logo-p{
+  font-size: 30rem;
+  cursor: pointer;
+}
+.menu-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 575rem;
+}
+.menu-div p{
+  font-size: 16rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  padding: 3rem 5rem;
+  border-radius: 3rem;
+}
+.menu-div .h{
+  margin: 0;
+}
+.menu-div p:hover{
+  color: black;
+  background-color: white;
+}
+#menu-icon{
+  color: white;
+  font-size: 30rem;
+  display: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.troop-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+.name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(74, 74, 74);
+  width: 50rem;
+  height: 514rem;
+  border-top-right-radius: 50rem;
+  border-bottom-right-radius: 50rem;
+}
+.name p{
+  font-size: 50rem;
+  font-family: 'Overpass Mono', monospace;
+  color: white;
+}
+.troop-img{
+  width: 300rem;
+  height: 450rem;
+  object-fit: contain;
+}
+.vote{
+  display: flex;
+  flex-direction: column;
+  height: 250rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.vote i{
+  font-size: 35rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.vote i:hover{
+  transform: translateY(-5rem);
+}
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info{
+  width: 400rem;
+  color: white;
+  font-size: 25rem;
+  font-family: 'Overpass Mono', monospace;
+  margin-left: 95rem;
+  text-align: center;
+}
+.rank{
+  color: black;
+  font-size: 80rem;
+}
+.next{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(74, 74, 74);
+  height: 514rem;
+  width: 50rem;
+  border-top-left-radius: 50rem;
+  border-bottom-left-radius: 50rem;
+}
+.next p{
+  font-size: 50rem;
+  font-family: 'Overpass Mono', monospace;
+  color: white;
+}
+
+
+
+
+
+@media (max-width: 700px){
+  .menu-div{
+    display: none;
+  }
+  #menu-icon{
+    display: unset;
+  }
+}
+@media (max-width: 950px){
+  .menu-div{
+    width: 450rem;
+  }
+}
+@media (max-width: 850px){
+  .menu-div{
+    width: 400rem;
+  }
+}
+@media (max-width: 750px){
+  .menu-div{
+    width: 350rem;
+  }
+}
+
+
+
+
+@media (max-width: 1030px){
+  main{
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+  }
+  .troop-div{
+    padding-right: 30rem;
+  }
+  .info{
+    margin-left: 0;
+    flex: 1;
+    padding: 0 40rem;
+  }
+}
+@media (max-width: 470px){
+  html{
+    font-size: 0.625px;
+  }
+  .name{
+    width: 50rem;
+    height: 514rem;
+    border-top-right-radius: 50rem;
+    border-bottom-right-radius: 50rem;
+  }
+  .name p{
+    font-size: 50rem;
+  }
+  .troop-img{
+    width: 300rem;
+    height: 450rem;
+  }
+  .vote{
+    height: 250rem;
+  }
+  .vote i{
+    font-size: 35rem;
+  }
+}
